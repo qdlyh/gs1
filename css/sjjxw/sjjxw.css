@@ -1,23 +1,26 @@
+*{padding: 0;margin: 0;box-sizing: border-box;-webkit-box-sizing: border-box;
+  list-style:none;text-decoration:none;letter-spacing: 1px;
+} 
 body{
   min-width: 320px;
   background:#dee7ee;
 }
-.home{
-   margin: 0 auto;
+.section-li-cp-name{                        /*分类产品名字*/
+  font-size: 0.6rem;
+  color: #232326;
+  padding-left: 5px;
 }
-
-.section-rmb{                               /*产品￥符号大小*/
+.section-li-cp-rmb{                         /*分类产品￥符号大小*/
+  font-size: 0.6rem;
+  color: #ed5f86;
+  padding-left: 5px;
+}
+.section-li-cp-jg{                           /*分类产品价格*/
   font-size: 0.7rem;
   color: #ed5f86;
 }
-.section-jg{                                 /*产品价格*/
-  font-size: 0.9rem;
-  color: #ed5f86;
-}
-.section-yj{                                /*产品原价大小*/
-  font-size: 0.5rem;
-  text-decoration: line-through;
-  color: rgba(57,64,80,.4);
+.home{
+   margin: 0 auto;
 }
 .section1{
   margin:0.1.5rem 0;
@@ -53,25 +56,31 @@ body{
   font-size: 0.4rem;
   color: #5f6874;
 }
-#section2-sx span{                   /*生肖产品框*/
-  display: inline-block;
-  margin: 5px 0;
-  width: 40px;
-  height: 40px;
-  color: #333333;
-  font-size: 0.4rem;
-  text-align: center;
-  line-height: 40px;
-  border: 2px solid #b8b7bd;
-  cursor: pointer;
-}
-.section2-sx-border{
-    border: 2px solid #ff0000 !important;
-}
-.section3 img{
-  width: 100%;
-}  
 
+.section3{
+  width: 100%
+  margin: 0.8rem 0;
+  background: #ffffff;
+}
+.section3 h4{
+  font-size: 0.7rem;
+  padding:10px 0 10px 10px;
+  color: #ff0000;
+}
+.section3-box li{
+  padding:0 2px 0 0;
+}
+.section3-box-content{
+  display: flex;  
+  flex-wrap:wrap;
+}
+.section3-box-content li{
+  width: 50%;
+  border: 1px solid #cccccc;
+}
+.section3-li1-img img{
+  width: 100%;
+} 
 
       @media screen and (min-width:320px) and ( max-width:568px){
                html{
