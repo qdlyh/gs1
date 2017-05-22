@@ -45,20 +45,20 @@
                   <span class="section-yj">￥999</span>
              </div>   
              </div>
-                <div id="section2-sx">
-                        <span>鼠</span>
-                        <span>牛</span>
-                        <span>虎</span>
-                        <span>兔</span>
-                        <span>龙</span>
-                        <span>蛇</span><br/>
-                        <span>马</span>
-                        <span>羊</span>
-                        <span>猴</span>
-                        <span>鸡</span>
-                        <span>狗</span>
-                        <span>猪</span>
-                 </div>
+                   <div id="section2-sx">
+                        <span class="section2-span-sx">鼠</span>
+                        <span class="section2-span-sx">牛</span>
+                        <span class="section2-span-sx">虎</span>
+                        <span class="section2-span-sx">兔</span>
+                        <span class="section2-span-sx">龙</span>
+                        <span class="section2-span-sx">蛇</span><br/>
+                        <span class="section2-span-sx">马</span>
+                        <span class="section2-span-sx">羊</span>
+                        <span class="section2-span-sx">猴</span>
+                        <span class="section2-span-sx">鸡</span>
+                        <span class="section2-span-sx">狗</span>
+                        <span class="section2-span-sx">猪</span>
+                   </div>
         </section>
 
         <section class="section3">
@@ -74,11 +74,16 @@
                  <img src="images/1561561561.png" alt="">
                  <span>购物车</span>
              </a>
-             <span class="section-bottom-btn3"><a href="">加入购物车</a></span>
-             <span class="section-bottom-btn4"><a href="">立即奉请</a></span>
+             <span class="section-bottom-btn3">
+             <a href="">加入购物车</a>
+             </span>
+             <span class="section-bottom-btn4">
+             <a class="section-bottom-btn4-a" href="" >立即奉请</a>
+             </span>
         </div>
 
     </div>
+         <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
          <script src="js/swiper.min.js"></script>
          <script type="text/javascript">
             /* 生肖选择框 */
@@ -94,6 +99,16 @@
                 } 
             }
 
+         $('.section-bottom-btn4-a').click(function(){
+           if ($('#section2-sx').children('span').hasClass('section2-span-sx')){ 
+               alert("请选择商品");
+               return false;
+           }else if ($('#section2-sx').children('span').hasClass('section2-sx-border')) {}
+               alert('选择成功')
+        })
+
+
+    //轮播
       var swiper = new Swiper('.swiper-container', {
         pagination : '.swiper-pagination',
         paginationClickable :true,
