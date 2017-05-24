@@ -1,0 +1,114 @@
+*{padding: 0;margin: 0;box-sizing: border-box;-webkit-box-sizing: border-box;
+  list-style:none;text-decoration:none;letter-spacing: 1px;
+} 
+body{
+  min-width: 320px;
+  background:#dee7ee;
+}
+.home{
+   margin: 0 auto;
+}
+.section-1-box{
+	max-width: 800px;
+	height: 400px;
+	background: #ffffff;
+	margin: 10% auto;
+}
+.section-1-box h1{
+	background: #deb56f;
+	text-align: center;
+	color: #ffffff;
+	font-size: 0.6rem;
+}
+.section-1-box img{
+	vertical-align:middle;
+}
+.section-1-box-left,.section-1-box-right{
+	width: 398px;
+	height: 280px;
+	float: left;
+	padding-top: 30px;
+}
+.section-1-box-left{
+	border-right: 1px solid #cccccc;	
+}
+.section-1-box-left h4,.section-1-box-right h4{
+	color: #c34d4d;
+	padding-left: 50px;
+	font-size: 0.5rem;
+}
+.section-1-box-left form,.section-1-box-right form{
+	margin: 10px 0;
+	text-align: center;
+}
+.section-1-box-left form span,.section-1-box-right form span{
+	font-size: 0.4rem;
+}
+.section-1-box-left input,.section-1-box-right input{
+	width: 200px;
+	height: 30px;
+	margin: 10px 0;
+	background:#e6d7bf;
+}
+.section-1-box-right{
+    float: right;
+}
+.login-btn{
+	margin-top: 30px;
+}
+.login-btn a{
+  display:block;
+  width: 140px;
+  height: 37px;
+  font-size: 18px;
+  line-height: 37px;
+  text-align: center;
+  color: #ffffff;
+  background:#deb56f;
+  margin: 0 auto;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.login-btn a:hover{
+	background: #589865;
+}
+
+
+         @media screen and (min-width:320px) and ( max-width:568px){
+               html{
+                font-size:26px;
+              }
+        }
+          @media screen and (min-width:411px) and ( max-width:736px){
+            html{
+                font-size:30px;
+              }
+
+        }
+        @media screen and (min-width:737px) and ( max-width:1023px){
+             html{
+                font-size:35px;
+              }
+
+        }
+        @media screen and (min-width:1024px) and ( max-width:1366px){
+               html{
+                font-size:50px;
+              }
+              .control-group{
+                  width: 6.65rem; 
+              }
+        }
+        @media screen and (min-width:1367px){
+             html{
+                font-size:35px;
+              }
+               .section-bottom-btn{
+                max-width: 800px;
+               }
+               .home{
+                max-width: 800px;
+            }
+    }

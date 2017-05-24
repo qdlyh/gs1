@@ -65,7 +65,6 @@ body{
 }
 .section3{
   margin: 0.8rem 0;
-  padding-left: 10px;
   background: #ffffff;
 }
 .section3-tab{
@@ -95,19 +94,14 @@ body{
   padding:0 0.8rem;
   font-weight:bold;
 }
+#section3-tab-box ul li{
+  padding-left: 10px;
+  border-bottom: 1px solid #cccccc;
+}
 .section3-tab-li{
   display:none;
 }
-.section3-box-li ul{
-  width: 100%;
-  display: -webkit-flex;
-  display: flex;
-  padding: 0 1rem;
-}
-.section3-box-li ul li{
-  line-height: 2rem;
-  border-bottom: 2px solid #f3f3f3;
-}
+
 .section4{
   background: #ffffff;
 }
