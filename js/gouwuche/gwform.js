@@ -10,7 +10,7 @@
           $(this).next().removeClass('colour-input1').addClass('colour-input2'); 
            }).blur(function(){
             if ($(this).val().length >= 2 && $(this).val().length <=10 && $(this).val() !='') {
-              $(this).next().text('输入成功').removeClass('colour-input1').addClass('colour-input4'); 
+              $(this).next().text('输入正确').removeClass('colour-input1').addClass('colour-input4'); 
             }else{
                 $(this).next().text('请输入正确的姓名').removeClass('colour-input1').removeClass('colour-input4').addClass('colour-input3'); 
                 return false;
@@ -22,7 +22,7 @@
 
             }).blur(function(){
               if($(this).val().match(/^(13[0-9]|14[5|7]|15[0|1|2|3|5|6|7|8|9]|18[0|1|2|3|5|6|7|8|9])\d{8}$/) && $(this).val()!=''){
-                $(this).next().text('输入成功').removeClass('colour-input1').addClass('colour-input4');
+                $(this).next().text('输入正确').removeClass('colour-input1').addClass('colour-input4');
               }else{
               $(this).next().text('请输入正确的手机格式号码').removeClass('colour-input1').removeClass
               ('colour-input4').addClass('colour-input3');  
@@ -36,20 +36,13 @@
 
            }).blur(function(){
             if ($(this).val().length >= 2 && $(this).val().length <=300  && $(this).val() !='') {
-              $(this).next().text('输入成功').removeClass('colour-input1').addClass('colour-input4'); 
+              $(this).next().text('输入正确').removeClass('colour-input1').addClass('colour-input4'); 
             }else{
                 $(this).next().text('请填写收货地址').removeClass('colour-input1').removeClass('colour-input4').addClass('colour-input3'); 
               return false;
             }
            }) 
 
-
-
-        //删除
-          $(".section-4-delete").click(function(){
-            var index = $(".section4-box").index(-1);
-            $(".section4-box").eq(index).remove();
-         })
 
             //全选
           $(".section4-bottom-check").click(function() {

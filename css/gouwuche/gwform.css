@@ -3,7 +3,6 @@
 } 
 body{
   min-width: 320px;
-  background:#dee7ee;
 }
 .home{
    margin: 0 auto;
@@ -13,6 +12,12 @@ body{
   color: #ed5f86;
   padding-left: 5px;
 }
+.section-2 h2{
+  font-size: 0.7rem;
+  padding:15px 0.5rem;
+  color: #e7c981;
+  border-bottom: 2px solid #f3f3f3;
+}
 .xinxi span{
   font-size: 0.5rem;
   padding-left:10px;
@@ -20,12 +25,13 @@ body{
 .color-input{
   font-size: 0.5rem;
   padding-left: 3.2rem;
+  padding-top: 5px;
 }
 .colour-input1{ 
   color:#000000; 
 } 
 .colour-input2{ 
-  color:#00BBFF; 
+  color:#e7c981;
 } 
 .colour-input3{ 
   color:#FF3333 ; 
@@ -72,8 +78,8 @@ body{
   background: #ffffff;
 }
 .section4 h2{
-  padding:15px 5px;
-  color: #277de2;
+  padding:15px 0.5rem;
+  color: #e7c981;
   font-size: 0.8rem;
   border-bottom: 2px solid #f3f3f3;
 }
@@ -144,16 +150,16 @@ body{
    float: right;
    width: 50px;
    font-size: 0.45rem;
-   color: #f40000;
+   color: #999999;
 }
 .section4-bottom{                             /* 底部 */
   display: flex;
   justify-content: space-between;
-  padding-left:20px;	
+  padding:10px 0 0 20px;	
 }
 .section4-bottom-qx{                       /* 全选 */
    font-size: 0.5rem;
-   padding-top: 10px;
+   padding-top: 5px;
 }
 .section-4-bottom-box{                    /* 合计向右排序 */     
   display: flex;
@@ -178,7 +184,6 @@ body{
 }
 .section4-box-js{                        /* 结算按钮*/
 	display: inline-block;
-	border-left:1px solid #c8c8c8;
 	width:80px;
 	height: 40px
 	font-size: 0.4rem;
@@ -187,10 +192,10 @@ body{
 	font-weight:bold;
 	cursor:pointer;
 	padding: 0 5px;
-	background-image:linear-gradient(RGB(241,241,241),RGB(226,226,226));
+	background:#e7c981;
 }
 .section4-box-js a{
-	color:#ff0000;
+	color:#ffffff;
 }
 .money-zf{                   /* 选择支付方式字体 */
   font-size: 0.5rem;

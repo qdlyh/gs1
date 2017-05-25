@@ -1,17 +1,4 @@
 
-.head-top{                                  /*网页顶部名称*/
-  height: 2rem;
-  display: flex;
-  display: -webkit-flex;
-  justify-content: center;
-  -webkit-justify-content: center;
-  background: #277de2;
-  line-height: 2rem;
-}
-.head-top h2{
-  font-size: 0.8rem;
-  color: #ffffff;
-}
  .section-bottom-btn{     /* 底部导航向右固定居中 */
   display: flex;
   justify-content: flex-end;
@@ -50,11 +37,13 @@
   height: 50px;
   line-height: 50px;
   color: #ffffff;
-  background: #3b9bff;
   padding: 0 5px;
   text-align: center;
   font-size: 16px;
 }
 .section-bottom-btn3 a{
-   background: #62afff;
+   background: #e7c981;
 }  
+.section-bottom-btn4 a{
+  background: #cfb371;
+}

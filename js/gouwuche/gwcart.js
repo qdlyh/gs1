@@ -1,9 +1,4 @@
 
-        //删除
-          $(".section-4-delete").click(function(){
-            var index = $(".section4-box").index(-1);
-            $(".section4-box").eq(index).remove();
-         })
 
             //全选
           $(".section4-bottom-check").click(function() {

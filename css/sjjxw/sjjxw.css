@@ -3,17 +3,17 @@
 } 
 body{
   min-width: 320px;
-  background:#dee7ee;
+  background-color: #f0efed;
 }
 .section-li-cp-name{                        /*分类产品名字*/
   font-size: 0.6rem;
   color: #232326;
-  padding-left: 5px;
+  padding-left: 10px;
 }
 .section-li-cp-rmb{                         /*分类产品￥符号大小*/
   font-size: 0.6rem;
   color: #ed5f86;
-  padding-left: 5px;
+  padding-left: 10px;
 }
 .section-li-cp-jg{                           /*分类产品价格*/
   font-size: 0.7rem;
@@ -22,50 +22,36 @@ body{
 .home{
    margin: 0 auto;
 }
+
+.head-top{                    
+  height: 2rem;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  background: #ffffff;
+  line-height: 2rem;
+}
+.head-top h2{
+  font-size: 0.8rem;
+  color: #333333;
+  font-family:"SimHei","SimSun","SimHei","Microsoft YaHei";
+}
 .section1{
   margin:0.1.5rem 0;
   width:100%;
-  height:10rem;
-}
-.section1 .swiper-container{
-  height:10rem;
 }
 .section1 img{                         /*顶部轮播图片*/
   width: 100%;
-  height: 10rem;
-}
-.section2{
-  padding: 0 0 30px 10px;
-  background: #ffffff;
-}
-.section2-top{
-  padding:0 0 10px 0;
-  border-bottom: 2px solid #f3f3f3;
-}
-.section2-top{                         /*h4产品标题和描述p上下排序  */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.section2-top h4{                    /*产品名称*/
-  font-size: 0.6rem;
-  margin: 10px 0 0 0;
-}
-.section2-top p{                     /*产品描述*/
-  padding: 10px 0;
-  font-size: 0.4rem;
-  color: #5f6874;
 }
 
 .section3{
-  width: 100%
-  margin: 0.8rem 0;
   background: #ffffff;
 }
-.section3 h4{
+.section3 h2{
   font-size: 0.7rem;
-  padding:10px 0 10px 10px;
-  color: #ff0000;
+  padding:15px 0.5rem;
+  color: #333333;
 }
 .section3-box li{
   padding:0 2px 0 0;
@@ -106,11 +92,8 @@ body{
         }
         @media screen and (min-width:1367px){
              html{
-                font-size:20px;
+                font-size:34px;
               }
-               .section-bottom-btn{
-                max-width: 800px;
-               }
                .home{
                 max-width: 800px;
             }
