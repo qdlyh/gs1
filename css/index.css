@@ -130,35 +130,38 @@ body{
   -webkit-justify-content: flex-end;
   padding-top: 15px;
 }
-.section4-box-content-top h6{             /*产品上下间距0*/   
-  margin: 0;
+.section4-box-content-name{             /*产品名字大小*/   
+  font-size: 0.56rem;
+}
+.section4-box-content-name a{          /*产品名字颜色*/   
+  color: #333333;
+}
+.section4-box-content-ms{              /*产品文字大小*/    
+  padding: 5px 0;
   font-size: 0.45rem;
 }
-.section4-box-content-top p{
-  padding: 10px 0;
-  font-size: 0.4rem;
-}
-.section4-box-content-top a{                
-  color: #333333;
+.section4-box-content-ms a{             /*产品文字颜色*/    
+  color: #999999;
 }
 .section-4-content-btn p{
   font-size: 0.4rem;
   padding-right: 5px;
   color: #333333;
 }
-.section-4-content-btn span{
+.section-4-content-btn span{            /*结缘价字体*/
   color: #f40000;
   font-size: 0.6rem;
   padding-right: 5px;
+  line-height: 1.2rem;
 }
-.section-4-content-btn a{
+.section-4-content-btn a{               /*立即奉请按钮*/
   width: 6em;
-  height: 1rem;
+  height: 1.2rem;
   background: #e7c981;
   color: #ffffff;
-  font-size: 0.4rem;
+  font-size: 0.5rem;
   text-align: center;
-  line-height: 1rem;
+  line-height: 1.2rem;
 }
     
          @media screen and (min-width:320px) and ( max-width:568px){

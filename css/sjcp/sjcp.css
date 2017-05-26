@@ -56,12 +56,12 @@ body{
   justify-content: space-between;
 }
 .section2-top h4{                    /*产品名称*/
-  font-size: 0.6rem;
+  font-size: 0.65rem;
   margin: 10px 0 0 0;
 }
 .section2-top p{                     /*产品描述*/
   padding: 10px 0;
-  font-size: 0.4rem;
+  font-size: 0.5rem;
   color: #5f6874;
 }
 #section2-sx span{                   /*生肖产品框*/
@@ -69,15 +69,19 @@ body{
   margin: 5px 0;
   width: 40px;
   height: 40px;
-  font-size: 0.4rem;
+  font-size: 0.45rem;
   text-align: center;
   line-height: 40px;
-  border: 2px solid #b8b7bd;
+  border: 1px solid #b8b7bd;
   cursor: pointer;
 }
 .section2-sx-border{
-  border: 2px solid #e7c981 !important;
+  border: 1px solid #e7c981 !important;
   color: #e7c981;
+}
+.section3{
+  background: #ffffff;
+  margin-bottom: 50px;
 }
 .section3 img{
   width: 100%;

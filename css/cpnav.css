@@ -4,14 +4,14 @@
   justify-content: flex-end;
   display: -webkit-flex;
   -webkit-justify-content: flex-end;
-  height: 50px;
+  height: 55px;
   position: fixed;
   margin: 0 auto;
   z-index: 1000;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #fff;
+  background-color: #ffffff;
   display: -webkit-flex;
   display: flex;
   color: #5f6874;
@@ -19,31 +19,34 @@
  
 }
 .section-bottom-btn-kf img,.section-bottom-btn-gw img{    /* 客服图标居中  */
+    width: 30px;
+    height: 30px;
     display: block;
-    margin: 0 auto;
+    margin: 2.5px auto;
+    padding-bottom: 2px;
 }
 .section-bottom-btn-kf,.section-bottom-btn-gw{          /* 客服框大小  */
-  width: 50px;
+  width: 60px;
   height: 100%;
   text-align: center;
   font-size: 9px;
   color: rgba(57,64,80,.6);
   border-left: 1px solid #ebeaee;
-  border-top: 1px solid #ebeaee;
 }
 .section-bottom-btn3 a,.section-bottom-btn4 a{
   display: block;
   width: 4rem;
-  height: 50px;
-  line-height: 50px;
+  height: 55px;
+  line-height: 55px;
   color: #ffffff;
   padding: 0 5px;
   text-align: center;
   font-size: 16px;
+  border-left: 2px solid #ffffff;
 }
 .section-bottom-btn3 a{
    background: #e7c981;
 }  
 .section-bottom-btn4 a{
-  background: #cfb371;
+  background: #ebd08e;
 }

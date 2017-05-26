@@ -103,23 +103,22 @@ body{
   justify-content: space-between;
   padding-top: 15px;
 }
-.section4-box-content-top h6{             /*产品上下间距0*/   
-  margin: 0;
-  font-size: 0.45rem;
+.section4-box-content-name{             /*产品名字大小*/   
+  font-size: 0.56rem;
 }
-.section4-box-content-top p{              /*产品文字大小*/    
-  padding: 10px 0;
-  font-size: 0.4rem;
-}
-.section4-box-content-top a{               /*产品文字颜色*/    
+.section4-box-content-name a{          /*产品名字颜色*/   
   color: #333333;
 }
-.section-4-content-name{                    /* 价格文字 */
+.section4-box-content-ms{              /*产品文字大小*/    
+  padding: 5px 0;
+  font-size: 0.45rem;
+}
+.section4-box-content-ms a{               /*产品文字颜色*/    
+  color: #999999;
+}
+.section-4-content-rmb{                    /* ￥价格文字 */
 	font-size: 0.5rem;
 	color: #f40000;
-}
-.section4-box-check{                       /* 产品选择按钮大小 */
-	width: 45px;
 }
 .section4-input-number{                     /* + -字体大小 */
 	font-size: 0.6rem;
@@ -134,7 +133,7 @@ body{
   line-height: 0.5rem;
   cursor: pointer;
 }
-.section-4-cp-number{	              /* 数量X1字体  */
+.section-4-cp-number{	                  /* 数量X1字体  */
   font-size: 0.4rem
 }
 .section4-input-number p{                /* 数量X1  */
@@ -157,14 +156,13 @@ body{
   justify-content: space-between;
   padding:10px 0 0 20px;	
 }
-.section4-bottom-qx{                       /* 全选 */
-   font-size: 0.5rem;
-   padding-top: 5px;
-}
 .section-4-bottom-box{                    /* 合计向右排序 */     
   display: flex;
   justify-content: flex-end;    
   font-size: 0.45rem;
+}
+.section4-bottom-hj{                       /* 合计向上内边距5PX */     
+  padding-top: 5px;
 }
 .section4-bottom-box-money{              /* 总金额和运费上下排序 */
   display: flex; 
@@ -173,21 +171,26 @@ body{
   align-items: center;
 }
 .section4-bottom-bhyf{                   /* 不含运费 */
-	color: #888888;
-	font-size: 0.4rem;
-	padding: 0 5px;
+  color: #999999;
+  font-size: 0.4rem;
+  padding: 0 5px 8px 5px;
 }
-.section4-bottom-money{                 /* 总金额 */
-	font-size: 0.45rem;
+.section4-bottom-money{                 /* 总金额颜色 */
 	color: #f40000;
 	font-weight:bold;
+}
+.section4-li-cp-rmb{                     /* 总金额￥字体大小 */
+  font-size: 0.4rem;
+}
+.section4-li-cp-money{                  /* 总金额字体大小 */
+  font-size: 0.6rem;
 }
 .section4-box-js{                        /* 结算按钮*/
 	display: inline-block;
 	width:80px;
 	height: 40px
 	font-size: 0.4rem;
-	line-height: 35px;
+	line-height: 45px;
 	text-align:center;	
 	font-weight:bold;
 	cursor:pointer;
@@ -199,6 +202,7 @@ body{
 }
 .money-zf{                   /* 选择支付方式字体 */
   font-size: 0.5rem;
+  padding-left: 5px;
 }
 
 
